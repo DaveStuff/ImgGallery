@@ -3,12 +3,14 @@ This batch file creates a gallery of all JPEG, PNG and **GIF** images in a folde
 *ImgGallery is MOST useful to quickly view many GIF images in motion at the same time.*
 
 To use: 
-  Drop ImgGallery.bat into the folder containing your images.
+  Run ImgGallery.bat - as of v1.01 the script will process images in the current working directory. Therefore I recommend putting ImgGallery.bat into a PATH folder, so it can be run easily, anywhere. Previously, the file had to be copied to the same folder as the source images - this will still work if you'd rather click and drag things than use console commands.
+  
+  ~~Drop ImgGallery.bat into the folder containing your images.
   Run ImgGallery.bat
     - A file called ImgGallery.htm will be created in the same folder - it will open automatically.
     - To refresh the gallery, just run ImgGallery.bat again.
     - To "uninstall", simply delete ImgGallery files from your image folder. e.g. "del ImgGallery.*"
-    - ImgGallery.htm will not work if it is removed from the image folder where it was created.
+    - ImgGallery.htm will not work if it is removed from the image folder where it was created.~~
 
 This project is based on Pict_NT.bat v2.00 by Rob van der Woude: [https://www.robvanderwoude.com/files/pict_nt.txt](https://www.robvanderwoude.com/files/pict_nt.txt)
 
