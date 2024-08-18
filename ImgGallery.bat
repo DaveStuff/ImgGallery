@@ -1,5 +1,5 @@
 @ECHO OFF
-ECHO ImgGallery.bat v1.00 for Windows
+ECHO ImgGallery.bat v1.01 for Windows
 ECHO Displays all images in current folder in a HTML gallery.
 ECHO.
 ECHO Based on Pict_NT.bat v2.00 by Rob van der Woude
@@ -8,6 +8,8 @@ ECHO.
 ECHO Enhanced by Dave
 ECHO https://github.com/DaveStuff/ImgGallery.git
 ECHO.
+
+cd /D %CD%
 
 SETLOCAL
 FOR /F "tokens=*" %%A IN ('CHCP') DO FOR %%B IN (%%A) DO SET CodePage=%%B
