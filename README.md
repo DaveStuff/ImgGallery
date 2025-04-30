@@ -1,16 +1,19 @@
-This batch file creates a gallery of all JPEG, PNG and **GIF** images in a folder, in HTML format, and opens it in your default browser.
+v1.2
 
-*ImgGallery is MOST useful to quickly view many GIF images in motion at the same time.*
+This batch file creates a HTML gallery from all JPEG, PNG, BMP, WEBP and **GIF** images in a folder and opens it in your default browser.
+
+*ImgGallery was created as an easy, flexible way to view multiple GIF images in motion at the same time.*
 
 To use: 
-  Run ImgGallery.bat - as of v1.01 the script will process images in the current working directory. Therefore I recommend putting ImgGallery.bat into a PATH folder, so it can be run easily, anywhere. Previously, the file had to be copied to the same folder as the source images - this will still work if you'd rather click and drag things than use console commands.
+ Run ImgGallery.bat - as of v1.01 the script will process images in the current working directory.
+ I recommend putting ImgGallery.bat into a PATH folder so it can be run easily from anywhere. 
+ Previously, the file had to be copied to the same folder as the source images - this will still work if you'd rather click and drag things than use console commands.
+ 
+*If you use a program like Directory Opus - you can create a custom button that creates a gallery from the current lister folder or a selected folder, etc.
   
-  ~~Drop ImgGallery.bat into the folder containing your images.
-  Run ImgGallery.bat
-    - A file called ImgGallery.htm will be created in the same folder - it will open automatically.
-    - To refresh the gallery, just run ImgGallery.bat again.
-    - To "uninstall", simply delete ImgGallery files from your image folder. e.g. "del ImgGallery.*"
-    - ImgGallery.htm will not work if it is removed from the image folder where it was created.~~
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CREDITS
 
 This project is based on Pict_NT.bat v2.00 by Rob van der Woude: [https://www.robvanderwoude.com/files/pict_nt.txt](https://www.robvanderwoude.com/files/pict_nt.txt)
 
@@ -22,4 +25,3 @@ Therefore, ImgGallery.bat is a near complete rewrite of Pict_NT that uses CSS an
   - Allow individual images to be clicked and viewed in a new tab.
 
 Idea for CSS based flex gallery came from here: [https://www.geeksforgeeks.org/css-image-gallery](https://www.geeksforgeeks.org/css-image-gallery)
-
